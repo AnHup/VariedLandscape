@@ -3,7 +3,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/CalcuatorKata"/>
 	<classpathentry excluding="com/hupel/calculator/internal/StringCalculatorImplTest.java|com/hupel/calculator/internal/" kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="lib" path="D:/PortableApps/PortableApps/eclipse-kepler-SR1/plugins/mockito-all-1.9.5.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Solution/VariedLandscape/CodingKata/Source/Libs/Test/mockito-all-1.9.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
