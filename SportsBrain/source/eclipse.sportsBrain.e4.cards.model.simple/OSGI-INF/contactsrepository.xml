@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="eclipse.sportsBrain.e4.cards.model.simple.contactsrepository">
+   <implementation class="eclipse.sportsBrain.e4.cards.model.simple.SimpleContactsRepository"/>
+   <service>
+      <provide interface="eclipse.sportsBrain.e4.cards.model.ContactsRepository"/>
+   </service>
+</scr:component>

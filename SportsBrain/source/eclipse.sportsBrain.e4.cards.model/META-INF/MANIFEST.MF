@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: e4 sportsBrain Model API
+Bundle-SymbolicName: eclipse.sportsBrain.e4.cards.model
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Andy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.eclipse.core.databinding.observable.list
+Export-Package: eclipse.sportsBrain.e4.cards.model

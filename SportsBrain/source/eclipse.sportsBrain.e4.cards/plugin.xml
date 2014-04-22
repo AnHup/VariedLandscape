@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.e4.ui.workbench.swt.E4Application"
+            name="sportsBrain cards">
+         <property
+               name="appName"
+               value="sportsBrain cards">
+         </property>
+         <property
+               name="applicationXMI"
+               value="eclipse.sportsBrain.e4.cards/Application.e4xmi">
+         </property>
+         <property
+               name="cssTheme"
+               value="eclipse.sportsBrain.e4.cards.themes.blue">
+         </property>
+         <property
+               name="rendererFactoryUri"
+               value="bundleclass://eclipse.sportsBrain.e4.cards.renderer/eclipse.sportsBrain.e4.cards.renderer.RendererFactory">
+         </property>
+         <property
+               name="lifeCycleURI"
+               value="bundleclass://eclipse.sportsBrain.e4.cards.login/eclipse.sportsBrain.e4.cards.login.Login">
+         </property>       
+      </product>
+   </extension>
+   <extension
+         point="org.eclipse.e4.ui.css.swt.theme">
+      <theme
+            basestylesheeturi="css/blue.css"
+            id="eclipse.sportsBrain.e4.cards.themes.blue"
+            label="Blue Theme">
+      </theme>
+   </extension>
+</plugin>

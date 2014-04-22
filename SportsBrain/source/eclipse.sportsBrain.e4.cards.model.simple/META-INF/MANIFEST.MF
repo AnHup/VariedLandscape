@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: e4 sportsBrain Simple Cards Model
+Bundle-SymbolicName: eclipse.sportsBrain.e4.cards.model.simple
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Andy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.eclipse.core.databinding.observable.list,
+ eclipse.sportsBrain.e4.cards.model,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Service-Component: OSGI-INF/contactsrepository.xml
+Export-Package: eclipse.sportsBrain.e4.cards.model.simple
