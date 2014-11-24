@@ -46,7 +46,7 @@ public class LoginDialog extends Dialog {
 	@Override
 	protected void configureShell(Shell shell) {
 		super.configureShell(shell);
-		shell.setText("e4 Tutorial Login");
+		shell.setText("Sports brain");
 	}
 
 	@Override
